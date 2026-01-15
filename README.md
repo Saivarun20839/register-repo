@@ -1,4 +1,4 @@
-# Login Page Screenshot
+# Register Page Screenshot
 
 [Click to view screenshot](https://github.com/Saivarun20839/register-repo/blob/main/Screenshot%202026-01-15%20092809.png?raw=true)
 
@@ -14,3 +14,4 @@ To start a local development server, run:
 
 ```bash
 ng serve
+
