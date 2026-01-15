@@ -1,0 +1,22 @@
+<div class="App">
+  <div class="RegisterPage">
+    <h1 class="login-title">Login Page</h1>
+
+    <input
+      placeholder="Username"
+      class="InputBox"
+      [(ngModel)]="username"
+    /><br />
+
+    <input
+      placeholder="Password"
+      type="password"
+      class="InputBox"
+      [(ngModel)]="password"
+    /><br />
+
+    <button class="Btn" (click)="handleLogin()">Login</button>
+
+    <p class="ErrorMessage">{{ msg }}</p>
+  </div>
+</div>

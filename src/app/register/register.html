@@ -1,0 +1,23 @@
+<div class="RegisterPage">
+  <h1>Registration Page</h1>
+
+  <input placeholder="Username" class="InputBox" [(ngModel)]="username" /><br/>
+
+  <input placeholder="Email" class="InputBox" [(ngModel)]="email" /><br/>
+
+  <input placeholder="Password" type="password" class="InputBox" [(ngModel)]="password" /><br/>
+
+  <input placeholder="Confirm Password" type="password" class="InputBox" [(ngModel)]="confirmPassword" /><br/>
+
+  <input placeholder="Phone Number" type="tel" class="InputBox" [(ngModel)]="phone"
+         (input)="phone = phone.replace(/[^0-9]/g,'')" /><br/>
+
+  <button class="Btn" (click)="handleRegister()">Register</button><br/>
+
+  <p class="ErrorMessage">{{ message }}</p>
+
+  <p>
+    Already have an account?
+    <span class="Clickable" (click)="handleLogin()">Login</span>
+  </p>
+</div>

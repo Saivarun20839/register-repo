@@ -1,0 +1,38 @@
+.RegisterPage {
+  width: 400px;
+  margin: auto;
+  text-align: center;
+}
+
+.InputBox {
+  width: 300px;
+  height: 35px;
+  margin: 8px 0;
+  padding: 5px 10px;
+  border-radius: 12px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  text-align: left;
+}
+
+.Btn {
+  width: 300px;
+  height: 35px;
+  border: none;
+  border-radius: 10px;
+  background: black;
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.ErrorMessage {
+  color: red;
+  margin-top: 10px;
+}
+
+.Clickable {
+  color: blue;
+  cursor: pointer;
+  text-decoration: underline;
+}
